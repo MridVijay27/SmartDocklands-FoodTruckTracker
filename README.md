@@ -24,4 +24,4 @@ A java application to manage food trucks operating in the Dublin Docklands area.
 2. Run the Main class
 
 ## GitHub Commits
-This project was committed progressively during development (commits).  
+This project was committed progressively during development (14 commits).  
