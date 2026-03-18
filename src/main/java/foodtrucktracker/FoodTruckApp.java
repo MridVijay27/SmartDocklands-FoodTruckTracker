@@ -100,11 +100,11 @@ public class FoodTruckApp {
         System.out.println("Front order: " + orderQueue.frontElement().toString());
         
         // display queue
-        System.out.println("\n-- Display Queue --");
+        System.out.println("\nDisplay Queue: ");
         System.out.println(orderQueue.displayQueue());
         
         // dequeue an order
-        System.out.println("-- Processing next order --");
+        System.out.println("Processing next order: ");
         String processed = (String) orderQueue.dequeue();
         System.out.println("Processed: " + processed);
         System.out.println("Queue size after dequeue: " + orderQueue.size());
@@ -113,14 +113,14 @@ public class FoodTruckApp {
         System.out.println("Is queue empty: " + orderQueue.isEmpty());
         
         
-        System.out.println("\n===== TESTING INHERITANCE AND POLYMORPHISM =====");
+        System.out.println("\nTESTING INHERITANCE AND POLYMORPHISM: ");
         
         // Vehicle reference pointing to FoodTruck object - polymorphism
         Vehicle v = new FoodTruck("194-D-1111", "Mary Byrne", "Pizza Palace", "Italian", "Spencer Dock");
         System.out.println("Vehicle reference: " + v.toString());
         
         
-        System.out.println("\n===== ALL TESTS COMPLETE =====");
+        System.out.println("\nALL TESTS COMPLETE");
         
         // Launch the GUI
         GUI myGUI = new GUI();

@@ -23,27 +23,33 @@ public class FoodTruck extends Vehicle {
         this.cuisineType = cuisineType;
         this.location = location;
     }
-
+    
+    // Returns the name of the food truck
     public String getTruckName() {
         return truckName;
     }
-
+    
+    // Sets the name of the food truck
     public void setTruckName(String truckName) {
         this.truckName = truckName;
     }
 
+    // Returns the cuisine type of the food truck
     public String getCuisineType() {
         return cuisineType;
     }
-
+    
+    // Sets the cuisine type of the food truck
     public void setCuisineType(String cuisineType) {
         this.cuisineType = cuisineType;
     }
-
+    
+    // Returns the current location of the food truck
     public String getLocation() {
         return location;
     }
-
+    
+    // Sets the current location of the food truck
     public void setLocation(String location) {
         this.location = location;
     }
