@@ -9,6 +9,7 @@ import foodtrucktracker.FoodTruckList;
 import foodtrucktracker.OrderQueue;
 import foodtrucktracker.RecentTruckStack;
 import foodtrucktracker.Vehicle;
+import foodtrucktracker.GUI;
 
 /**
  * Main class to test all ADTs and functionality.
